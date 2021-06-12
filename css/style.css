@@ -12,34 +12,36 @@ div {
 
 header {
     font-size: 60px;
-    margin-top: 20px;
+    margin-top: 100px;
+    font-weight: 700;
 }
 
-.section {
+.card {
     background-color: grey;
-    height: 300px;
+    height: 250px;
     float: left;
     position: relative;
     border: 1px solid black;
     text-align: left;
 
 }
-.innerSection {
+.card-title {
     position: absolute;
     top: 0;
     right: 0;
     border: 1px solid black;
     text-align: center;
+    font-weight: 700;
 }
 
-.innerSection1 {
-    background-color: pink;
+.title1 {
+    background-color: rgb(255, 121, 121);
 }
-.innerSection2 {
-    background-color: rgb(245, 56, 56);
+.title2 {
+    background-color: rgb(100, 247, 107);
 }
-.innerSection3 {
-    background-color: rgb(255, 255, 118);
+.title3 {
+    background-color: rgb(113, 179, 255);
 }
 
 
@@ -49,11 +51,11 @@ header {
     body {
         text-align: center;
     }
-    .section {
+    .card {
         width: 30%;
         margin: 1.5%;
     }
-    .innerSection {
+    .card-title {
         width: 33%;
         height: 42px;
         font-size: 26px;
@@ -71,20 +73,20 @@ header {
     body {
         text-align: center;
     }
-    .section {
+    .card {
         width: 48%;
         margin: 1%;
     }
-    .section3 {
+    .card:nth-of-type(3) {
         width: 98%;
     }
-    .innerSection {
+    .card-title {
         width: 33%;
         height: 42px;
         font-size: 26px;
         padding-top: 5px;
     }
-    .innerSection3 {
+    .title3 {
         width: 17%;
     }
     header{ 
@@ -99,14 +101,14 @@ header {
     body {
         text-align: center;
     }
-    .section {
+    .card {
         width: 98%;
         margin: 1%;
     }
-    .section3 {
+    .card:nth-of-type(3) {
         width: 98%;
     }
-    .innerSection {
+    .card-title {
         width: 33%;
         height: 42px;
         font-size: 26px;
